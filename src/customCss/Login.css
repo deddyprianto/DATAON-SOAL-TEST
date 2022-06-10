@@ -1,0 +1,45 @@
+.loginPage {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.textLogin {
+  color: gray;
+}
+.cardLogin {
+  background-color: wheat;
+  box-shadow: 2px 2px 2px 0.5;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 35%;
+  width: 70%;
+}
+.input {
+  margin-bottom: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px;
+  padding: 10px;
+  width: 50%;
+}
+.containerEl {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttonLogin {
+  width: 50%;
+  color: white;
+  background-color: skyblue;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+}

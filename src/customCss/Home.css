@@ -1,0 +1,49 @@
+.contaninerApp {
+  width: 100vw;
+  height: 100vh;
+  background-color: #3b3b3b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.textContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.textContainer > h1 {
+  margin-left: 10px;
+}
+.textContainer > button {
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: skyblue;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+}
+.card {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow-y: auto;
+}
+.card_main {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cardInfo {
+  width: 90%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-top: -100px;
+  padding: 10px;
+}
